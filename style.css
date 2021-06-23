@@ -1,0 +1,99 @@
+body {
+    font-family: 'Caveat', cursive;
+    background-image: url("./Clementinum_library.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-color: tan;
+}
+
+#flexContainer {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+}
+
+#newBookContainer {
+    flex-grow: 0;
+    align-self: flex-start;
+    border: 2px solid rgb(141, 129, 18);
+    border-radius: 25px;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    
+    
+    flex-shrink: 0;
+    
+}
+
+#read{
+    margin: 0%
+}
+label{
+    margin: 0%;
+    padding: 0px;
+    float: left;
+}
+
+#bookDisplayer {
+    flex-grow: 2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.bookBox {
+  color: antiquewhite;
+  font-size: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 25px;
+  height: 300px;
+  width: 250px;
+  padding: 15px;
+  margin: 20px;
+  background-color: rgb(10, 10, 8);
+}
+
+.textbox {
+    font-family: 'Caveat', cursive;
+    font-size: large;
+    width: 10vw;
+    height: 2vh;
+    border-radius: 20px;
+}
+
+label {
+    font-size: 25px;
+}
+
+#read {
+    width: 2vw;
+    margin-top: 1vh;
+    height: 15px;
+}
+
+#addBtn {
+    font-family: 'Caveat', cursive;
+    font-size: large;
+    width: 6vw;
+    border-radius: 20px;
+}
+
+div.bookChild button {
+    font-family: 'Caveat', cursive;
+    font-size: large;
+
+    border-radius: 20px;
+    width: 100px;
+    height: 2rem;
+    
+}

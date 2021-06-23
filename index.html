@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Library</title>
+    <script src="./objects.js" async></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    </br></br>
+    <div id="header">
+        <h1>Your Personal Library</h1></br>
+    </div>
+    <div id="flexContainer">
+        <div id="newBookContainer">
+            <h3>Add a Book</h3>
+            <form id="newBookForm">
+                <div id="newBookTextInput">
+                    <p><input type='text' id='title' name='title' class="textbox" placeholder='Title'></p>
+                    <p><input type='text' id='author' name='author' class="textbox" placeholder='Author'></p>
+                    <p><input type='text' id='pages' name='pages' class="textbox" placeholder='Num. of Pages'></p>
+                </div>
+                <div id="newBookReadCheck">
+                    <p>
+                        <label for="read">Check if you have read this book</label>
+                        <input type="checkbox" name="read" id="read">
+                    </p>
+                </div>
+                <button type='submit' form='form' id='addBtn'>Add to Library</button>
+            </form>
+        </div>
+        <div id="bookDisplayer">
+        </div>
+    </div>
+</body>
+
+
+</html>
